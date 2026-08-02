@@ -25,6 +25,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
 .tag.mp3{background:rgba(74,222,128,0.1);color:var(--green);border:1px solid rgba(74,222,128,0.2)}
 .tag.cf{background:var(--cyan-dim);color:var(--cyan);border:1px solid rgba(34,211,238,0.2)}
 .tag.gfw{background:rgba(251,191,36,0.1);color:var(--orange);border:1px solid rgba(251,191,36,0.2)}
+.group-head{font-size:19px;font-weight:800;margin-top:48px;letter-spacing:1px}
+.grid + .group-head{margin-top:56px}
+.tag.shin{background:rgba(248,113,113,0.1);color:#f87171;border:1px solid rgba(248,113,113,0.2)}
+.tag.mtr{background:rgba(45,212,191,0.1);color:#2dd4bf;border:1px solid rgba(45,212,191,0.2)}
 .note{margin-top:40px;text-align:center;font-size:12px;color:rgba(255,255,255,0.25)}
 .footer{text-align:center;padding:32px 0 0;font-size:12px;color:rgba(255,255,255,0.2);border-top:1px solid rgba(255,255,255,0.04);margin-top:48px}
 .footer a{color:rgba(255,255,255,0.3);text-decoration:none}.footer a:hover{color:rgba(255,255,255,0.5)}
@@ -39,7 +43,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
 <h1>Hermes Agent 實戰指南系列</h1>
 <p>由真實部署經驗整理 — Oracle VM 免費部署 · YouTube 音樂下載 · Cloudflare 生態 · 科學上網雙通道<br/>全部親測，所有坑已替你踩平</p>
 </div>
-<div class="grid">
+<h2 class="group-head">📘 指南</h2>
+  <div class="grid">
 <a class="card" href="https://forumdata-collab.github.io/hermes-oracle-guide/">
 <div class="f-icon">🔧</div>
 <h2>Oracle VM 免費部署 Hermes Agent</h2>
@@ -65,7 +70,31 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
 <span class="tag gfw">雙通道方案</span>
 </a>
 </div>
-<p class="note">⚠️ 各指南僅供個人學習與研究之用，請遵守所在地區法律法規</p>
+<h2 class="group-head">🚆 鐵路</h2>
+  <div class="grid">
+    <a class="card" href="shinkansen-e-museum/">
+      <div class="f-icon">🚄</div>
+      <h2>日本新幹線 E 系列 STEM 科技展</h2>
+      <p>新幹線 E1–E8、E956 ALFA-X、E10 全系列 STEM 展覽：規格對比、車頭設計演變、阻力模擬器與互動測驗。</p>
+      <span class="tag shin">新幹線</span>
+    </a>
+
+    <a class="card" href="shinkansen-liners/">
+      <div class="f-icon">🚅</div>
+      <h2>新幹線四色列車對比</h2>
+      <p>N700系、E6系、923形 Doctor Yellow、E5系四色列車對比：規格總表、極速視覺化與車型故事。</p>
+      <span class="tag shin">新幹線</span>
+    </a>
+
+    <a class="card" href="mtr-train-gallery/">
+      <div class="f-icon">🚇</div>
+      <h2>港鐵列車跨學科專題</h2>
+      <p>15 款港鐵載客列車圖鑑：涵蓋 STEM 工程、歷史、車身美學、ESG、公民與 AI 六大領域。</p>
+      <span class="tag mtr">港鐵</span>
+    </a>
+  </div>
+
+  <p class="note">⚠️ 各指南僅供個人學習與研究之用，請遵守所在地區法律法規</p>
 <div class="footer">
     <a href="https://ko-fi.com/forumdata" target="_blank" style="display:inline-flex;align-items:center;gap:10px;padding:12px 28px;background:#ff5e5b;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;font-size:15px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.47.06 8.529-1.723 8.649-4.916zm-11.638 8.978c-2.252 0-4.078-1.826-4.078-4.078s1.826-4.078 4.078-4.078 4.078 1.826 4.078 4.078-4.078 4.078z"/></svg>☕ 請我喝杯咖啡</a>
     <div style="margin-top:14px">
